@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hogwarts: The Magic Begins</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+
+<body>
+    <header id="head">
+        <nav>
+            <div class="fist_head">
+                <div class="logo_img">
+                    <img src="https://upload.wikimedia.org/wikipedia/ru/thumb/e/e5/Hogwarts-coat.svg/1200px-Hogwarts-coat.svg.png" alt="">
+                    <h1 id="textwhite">Hogwarts</h1>
+                </div>
+             
+                <ul id="nav-links" class="nav-links">
+                    <li><a href="#home" class="nav-link" id="textwhite">Главная</a></li>
+                    <li><a href="#characters" class="nav-link">Герои</a></li>
+                    <li><a href="#hogwarts" class="nav-link">Хогвартс</a></li>
+                    <li><a href="#magic" id="magik" class="nav-link">Магия</a></li>
+                    <li><a href="#facyltet" class="nav-link">Факультеты</a></li>
+                </ul>
+        
+                <div class="theme-toggle">
+                    <button id="theme-btn">🌙</button>
+                </div>
+
+                <input type="checkbox" id="burger-checkbox" class="burger-checkbox">
+<label class="burger" for="burger-checkbox"></label>
+            </div>
+      
+            <div class="second_head">
+                <div class="text1">
+                    <h1 class="click-text" id="textwhite">Нажми на крестраж</h1>
+                    <img src="https://png.pngtree.com/png-vector/20240304/ourmid/pngtree-red-sapphire-isolated-on-white-background-3d-rendering-png-image_11893132.png" alt="" class="crest-img">
+                </div>
+                <div class="spotify-widget">
+                    <iframe style="border-radius:10px" src="https://open.spotify.com/embed/track/1n8NKQRg8LVHy7oUhUgbFF?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                </div>
+            </div>
+            
+
+            <div class="mini-head">
+                <ul class="nav-links mini">
+                    <li><a href="#home" class="nav-link" id="textwhite">Главная</a></li>
+                    <li><a href="#characters" class="nav-link">Герои</a></li>
+                    <li><a href="#hogwarts" class="nav-link">Хогвартс</a></li>
+                    <li><a href="#magic" class="nav-link">Магия</a></li>
+                    <li><a href="#facyltet" class="nav-link">Факультеты</a></li>
+                </ul>
+            </div>
+        </nav>
+        
+    </header>
+    
+    <section id="home" class="parallax">
+        <div class="home-content">
+            <h1 class="title">It all began with a letter...</h1>
+            <p class="subtitle">Добро пожаловать в мир волшебства</p>
+            <button class="magic-btn" id="explore-btn">Погрузиться в волшебство <i class="fas fa-magic"></i></button>
+        </div>
+        <div class="floating-letters">
+            <img src="./img/2021-08-28_10-03-24_1630134443785-removebg-preview.png" class="letter" style="top: 20%; left: 10%;">
+            <img src="./img/2021-08-28_10-03-24_1630134443785-removebg-preview.png" class="letter" style="top: 30%; left: 80%;">
+            <img src="./img/2021-08-28_10-03-24_1630134443785-removebg-preview.png" class="letter" style="top: 70%; left: 15%;">
+            <img src="./img/2021-08-28_10-03-24_1630134443785-removebg-preview.png" class="letter" style="top: 80%; left: 70%;">
+        </div>
+        <div class="sparks">
+            <div class="spark"></div>
+            <div class="spark"></div>
+            <div class="spark"></div>
+            <div class="spark"></div>
+            <div class="spark"></div>
+        </div>
+    </section>
+
+    <section id="characters" class="section">
+        <div class="section-header">
+            <h2>Наши Герои</h2>
+            <div class="divider"></div>
+        </div>
+        <div class="characters-container">
+            
+            <div class="character-card" data-house="gryffindor">
+                <div class="card-front">
+                    <img src="https://citaty.info/files/portraits/garri-potter.jpg" alt="">
+                    <h3>Гарри Поттер</h3>
+                    <p>Гриффиндор</p>
+                </div>
+                <div class="card-back">
+                    <h3>Гарри Поттер</h3>
+                    <p>Мальчик, который выжил. Известен победой над Темным Лордом.</p>
+                    <button class="more-btn" data-character="harry">Узнать больше</button>
+                </div>
+            </div>
+            <div class="character-card" data-house="gryffindor">
+                <div class="card-front">
+                    <img src="https://cdn.fishki.net/upload/post/2020/10/30/3460302/tn/12-1.jpg" alt="">
+                    <h3>Гермиона Грейнджер</h3>
+                    <p>Гриффиндор</p>
+                </div>
+                <div class="card-back">
+                    <h3>Гермиона Грейнджер</h3>
+                    <p>Самая умная ведьма своего поколения. Основала S.P.E.W.</p>
+                    <button class="more-btn" data-character="hermione">Узнать больше</button>
+                </div>
+            </div>
+            <div class="character-card" data-house="gryffindor">
+                <div class="card-front">
+                    <img src="https://facts.museum/img/facts/2744.jpg" alt="">
+                    <h3>Рон Уизли</h3>
+                    <p>Гриффиндор</p>
+                </div>
+                <div class="card-back">
+                    <h3>Рон Уизли</h3>
+                    <p>Верный друг, шестой сын в семье Уизли. Мастер шахмат.</p>
+                    <button class="more-btn" data-character="ron">Узнать больше</button>
+                </div>
+            </div>
+            <div class="character-card" data-house="slytherin">
+                <div class="card-front">
+                    <img src="https://i.pinimg.com/474x/60/74/2e/60742ee43387f0812650cf79afd29b95.jpg" alt="">
+                    <h3>Лорд Волдеморт</h3>
+                    <p>Слизерин</p>
+                </div>
+                <div class="card-back">
+                    <h3>Лорд Волдеморт</h3>
+                    <p>Темный Лорд, самый опасный волшебник всех времен.</p>
+                    <button class="more-btn" data-character="voldemort">Узнать больше</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="harry-modal" class="character-modal">
+        <div class="modal-content">
+            <div class="modal-header gryffindor-bg">
+                <h2>Гарри Джеймс Поттер</h2>
+                <span class="close-modal">&times;</span>
+            </div>
+            <div class="modal-body">
+                <div class="modal-image">
+                    <img src="https://citaty.info/files/portraits/garri-potter.jpg" alt="">
+                </div>
+                <div class="modal-info">
+                    <div class="info-item">
+                        <i class="fas fa-birthday-cake"></i>
+                        <span><strong>Дата рождения:</strong> 31 июля 1980 года</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-hat-wizard"></i>
+                        <span><strong>Факультет:</strong> Гриффиндор</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-horse-head"></i>
+                        <span><strong>Патронус:</strong> Олень</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-magic"></i>
+                        <span><strong>Палочка:</strong> Остролист, перо феникса, 11", податливая</span>
+                    </div>
+                    <div class="info-text">
+                        <p>Гарри Поттер — единственный известный волшебник, выживший после смертельного заклинания "Авада Кедавра". Известен как "Мальчик, который выжил". Победил Тёмного Лорда Волан-де-Морта в битве при Хогвартсе.</p>
+                        <p>Особые способности: Парселтанг (умение разговаривать со змеями), исключительный навык в Защите от Тёмных искусств.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer gryffindor-bg">
+                <button class="modal-close-btn">Закрыть</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="hermione-modal" class="character-modal">
+        <div class="modal-content">
+            <div class="modal-header gryffindor-bg">
+                <h2>Гермиона Джин Грейнджер</h2>
+                <span class="close-modal">&times;</span>
+            </div>
+            <div class="modal-body">
+                <div class="modal-image">
+                    <img src="https://cdn.fishki.net/upload/post/2020/10/30/3460302/tn/12-1.jpg" alt="">
+                </div>
+                <div class="modal-info">
+                    <div class="info-item">
+                        <i class="fas fa-birthday-cake"></i>
+                        <span><strong>Дата рождения:</strong> 19 сентября 1979 года</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-hat-wizard"></i>
+                        <span><strong>Факультет:</strong> Гриффиндор</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-horse-head"></i>
+                        <span><strong>Патронус:</strong> Выдра</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-magic"></i>
+                        <span><strong>Палочка:</strong> Виноградная лоза, сердцевина дракона, 10¾", упругая</span>
+                    </div>
+                    <div class="info-text">
+                        <p>Самая умная ведьма своего поколения. Основала организацию S.P.E.W. (Общество по Защите Прав Эльфов).</p>
+                        <p>Отличительные черты: исключительные академические способности, логическое мышление, организаторские навыки. Использовала Маховик времени для посещения дополнительных занятий.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer gryffindor-bg">
+                <button class="modal-close-btn">Закрыть</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="ron-modal" class="character-modal">
+        <div class="modal-content">
+            <div class="modal-header gryffindor-bg">
+                <h2>Рональд Билиус Уизли</h2>
+                <span class="close-modal">&times;</span>
+            </div>
+            <div class="modal-body">
+                <div class="modal-image">
+                    <img src="https://facts.museum/img/facts/2744.jpg" alt="">
+                </div>
+                <div class="modal-info">
+                    <div class="info-item">
+                        <i class="fas fa-birthday-cake"></i>
+                        <span><strong>Дата рождения:</strong> 1 марта 1980 года</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-hat-wizard"></i>
+                        <span><strong>Факультет:</strong> Гриффиндор</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-horse-head"></i>
+                        <span><strong>Патронус:</strong> Джек-рассел-терьер</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-magic"></i>
+                        <span><strong>Палочка:</strong> Ива, волос единорога, 14", неизвестной гибкости</span>
+                    </div>
+                    <div class="info-text">
+                        <p>Шестой сын в семье Уизли. Мастер шахмат, за что получил 50 очков для Гриффиндора на первом курсе.</p>
+                        <p>Хранитель в сборной Гриффиндора по квиддичу. Отличительные черты: верность, чувство юмора, стратегическое мышление. Боится пауков (арахнофобия).</p>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer gryffindor-bg">
+                <button class="modal-close-btn">Закрыть</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="voldemort-modal" class="character-modal">
+        <div class="modal-content">
+            <div class="modal-header gryffindor-bg">
+                <h2>Лорд Волдеморт (Том Реддл)</h2>
+                <span class="close-modal">&times;</span>
+            </div>
+            <div class="modal-body">
+                <div class="modal-image">
+                    <img src="https://i.pinimg.com/474x/60/74/2e/60742ee43387f0812650cf79afd29b95.jpg" alt="">
+                </div>
+                <div class="modal-info">
+                    <div class="info-item">
+                        <i class="fas fa-birthday-cake"></i>
+                        <span><strong>Дата рождения:</strong> 31 декабря 1926 года</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-hat-wizard"></i>
+                        <span><strong>Факультет:</strong> Слизерин</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-horse-head"></i>
+                        <span><strong>Патронус:</strong> Нет (из-за отсутствия способности любить)</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-magic"></i>
+                        <span><strong>Палочка:</strong> Тис, перо феникса, 13½", неизвестной гибкости</span>
+                    </div>
+                    <div class="info-text">
+                        <p>Тёмный Лорд, самый опасный волшебник всех времён. Создал 7 крестражей для достижения бессмертия.</p>
+                        <p>Известен как "Тот-Кого-Нельзя-Называть". Обладает навыками легилименции и окклюменции. Боится смерти больше всего. Убит собственным заклятием "Авада Кедавра", отражённым Гарри Поттером.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer gryffindor-bg">
+                <button class="modal-close-btn">Закрыть</button>
+            </div>
+        </div>
+    </div>
+    <section id="hogwarts" class="hogwarts-section">
+        <div class="hogwarts-container">
+            <div class="hogwarts-map">
+                <img src="./img/Flux_Dev_make_a_map_of_hogwarts_with_the_top_image_in_the_Harr_1.jpg" alt="" class="map-image">
+                <div class="location-point" style="top: 20%; left: 49%;">
+                    <div class="location-info">Башня Гриффиндора </div>
+                </div>
+                <div class="location-point" style="top: 40%; left: 25%;">
+                    <div class="location-info">Главный Зал</div>
+                </div>
+                <div class="location-point" style="top: 70%; left: 55%;">
+                    <div class="location-info">Смертельное Озеро</div>
+                </div>
+                <div class="location-point" style="top: 50%; left: 76%;">
+                    <div class="location-info">Ущелье Забытых Заклинаний</div>
+                </div>
+                <div class="location-point" style="top: 75%; left: 20%;">
+                    <div class="location-info">Запретный Лес</div>
+                </div>
+            </div>
+            
+            <div class="hogwarts-info">
+                <h2>Школа Чародейства и Волшебства Хогвартс</h2>
+                <p>Хогвартс - легендарная школа магии, расположенная в живописных горах Шотландии. Основанная более тысячи лет назад четырьмя великими волшебниками, школа продолжает обучать юных магов и ведьм искусству волшебства.</p>
+                <p>Скрытый от глаз маглов мощными чарами, Хогвартс представляет собой огромный замок с множеством башен, подземелий и тайных проходов. Здесь каждый уголок пропитан магией и хранит свои секреты.</p>
+                
+                <div class="hogwarts-features">
+                    <div class="feature-item">
+                        <div class="feature-icon">🏰</div>
+                        <div>142 лестницы, которые любят меняться</div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">🦉</div>
+                        <div>4 факультета с богатой историей</div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">📚</div>
+                        <div>Библиотека с запретным разделом</div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">👻</div>
+                        <div>Множество привидений-обитателей</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<section id="facyltet" class="section">
+    <div class="section-header">
+        <h2>Факультеты Хогвартса</h2>
+        <div class="divider"></div>
+        <p class="section-subtitle">Выбери свой факультет и узнай его особенности</p>
+    </div>
+    
+    <div class="houses-container">
+        <div class="house-selector">
+            <div class="house-option" data-house="gryffindor">
+                <div class="house-crest">
+                    <img src="https://klev.club/uploads/posts/2023-11/1698878527_klev-club-p-arti-gerb-garri-pottera-griffindor-17.jpg" alt="">
+                </div>
+                <h3>Гриффиндор</h3>
+            </div>
+            <div class="house-option" data-house="slytherin">
+                <div class="house-crest">
+                    <img src="https://png.klev.club/uploads/posts/2024-05/png-klev-club-grvc-p-gerb-slizerin-png-1.png" alt="" >
+                </div>
+                <h3>Слизерин</h3>
+            </div>
+            <div class="house-option" data-house="ravenclaw">
+                <div class="house-crest">
+                    <img src="https://pm1.aminoapps.com/7167/89dcde1b6102561c03c487709408a574ff8b76cfr1-399-512v2_00.jpg" alt="">
+                </div>
+                <h3>Когтевран</h3>
+            </div>
+            <div class="house-option" data-house="hufflepuff">
+                <div class="house-crest">
+                    <img src="https://abrakadabra.fun/uploads/posts/2021-12/1640199343_1-abrakadabra-fun-p-gerb-puffenduya-iz-garri-pottera-1.png" alt="">
+                </div>
+                <h3>Пуффендуй</h3>
+            </div>
+        </div>
+        
+        <div class="house-info">
+            <div class="house-banner">
+                <img id="house-banner-img" src="https://images.ctfassets.net/usf1vwtuqyxm/2VwXlmYtKogYWIoQ4g8QyQ/2f5d7b6370a8a1d0f9a819b5e9c1e10f/Gryffindor_WB_F4_GryffindorCommonRoom_Promo_100615_Land.jpg" alt="">
+            </div>
+            <div class="house-details">
+                <h2 id="house-name">Гриффиндор</h2>
+                <div class="house-traits">
+                    <span class="trait" id="trait-1">Храбрость</span>
+                    <span class="trait" id="trait-2">Честь</span>
+                    <span class="trait" id="trait-3">Доблесть</span>
+                </div>
+                <p id="house-description" class="house-description">Гриффиндор ценит храбрость, отвагу, решимость и рыцарство. Основан Годриком Гриффиндором. Талисман - лев, цвета - алый и золотой. Гостиная находится в Гриффиндорской башне, а вход охраняет Жирная Дама.</p>
+                <div class="house-famous">
+                    <h4>Известные студенты:</h4>
+                    <ul id="famous-students">
+                        <li>Гарри Поттер</li>
+                        <li>Гермиона Грейнджер</li>
+                        <li>Рон Уизли</li>
+                        <li>Альбус Дамблдор</li>
+                    </ul>
+                </div>
+                <button class="sorting-btn" id="sorting-btn">Распределяющая шляпа решит за меня!</button>
+            </div>
+        </div>
+    </div>
+</section>
+    <section id="magic" class="section">
+        <div class="section-header">
+            <h1>Архив заклинаний</h1>
+            <div class="divider--magic"></div>
+            <p class="section-subtitle">Исследуйте древние магические формулы</p>
+        </div>
+        
+        <div class="magic-container">
+            <div class="wand-section">
+                <div class="wand-display">
+                    <div class="wand-image">
+                        <img src="https://cyprusbutterfly.com.cy/assets/cache_image/images/zz/bfdbfea8fa11a17cb16825b325ccea8d_0x0_977.jpg" alt="" id="wand">
+                    </div>
+                    <div class="spell-effects">
+                        <div class="spell-circle" id="spell-circle"></div>
+                        <div class="spell-particles"></div>
+                        <div class="spell-text-effect"></div>
+                    </div>
+                </div>
+                
+                <div class="spell-controls">
+                    <button id="cast-spell-btn" class="magic-btn2">
+                        <span class="btn-text">Призвать магию</span>
+                    </button>
+                    <div id="spell-display" class="spell-result">
+                        <div class="spell-name">Магия ждёт вашего приказа</div>
+                        <div class="spell-effect">Выберите заклинание из списка или доверьтесь случаю</div>
+                        <div class="spell-details">
+                            <div class="spell-type"><span>Тип:</span> <span id="spell-type">-</span></div>
+                            <div class="spell-difficulty"><span>Сложность:</span> <span id="spell-difficulty">-</span></div>
+                            <div class="spell-incantation"><span>Заклинание:</span> <span id="spell-incantation">-</span></div>
+                            <div class="spell-history"><span>История:</span> <span id="spell-history">-</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="spells-list-container">
+                <div class="spells-list-header">
+                    <h3>Гримуар</h3>
+                    <div class="search-spell">
+                        <input type="text" placeholder="Поиск заклинания..." id="spell-search">
+                        <div class="spell-filter">
+                            <select id="spell-type-filter">
+                                <option value="all">Все типы</option>
+                                <option value="attack">Атакующие</option>
+                                <option value="defense">Защитные</option>
+                                <option value="utility">Утилитарные</option>
+                                <option value="dark">Тёмные искусства</option>
+                                <option value="healing">Исцеляющие</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="spells-list">
+                    <ul>
+                        <li data-spell="avada-kedavra">
+                            <span class="spell-title">Avada Kedavra</span>
+                            <span class="spell-desc">Непростительное заклинание, мгновенно убивающее жертву</span>
+                            <span class="spell-cast">Произнести</span>
+                        </li>
+                        <li data-spell="expelliarmus">
+                            <span class="spell-title">Expelliarmus</span>
+                            <span class="spell-desc">Выбивает оружие или палочку из рук противника</span>
+                            <span class="spell-cast">Произнести</span>
+                        </li>
+                        <li data-spell="expecto-patronum">
+                            <span class="spell-title">Expecto Patronum</span>
+                            <span class="spell-desc">Создает защитного Патронуса для отражения дементоров</span>
+                            <span class="spell-cast">Произнести</span>
+                        </li>
+                        <li data-spell="wingardium-leviosa">
+                            <span class="spell-title">Wingardium Leviosa</span>
+                            <span class="spell-desc">Позволяет левитировать объекты</span>
+                            <span class="spell-cast">Произнести</span>
+                        </li>
+                        <li data-spell="lumos">
+                            <span class="spell-title">Lumos</span>
+                            <span class="spell-desc">Зажигает свет на кончике палочки</span>
+                            <span class="spell-cast">Произнести</span>
+                        </li>
+                        <li data-spell="nox">
+                            <span class="spell-title">Nox</span>
+                            <span class="spell-desc">Гасит свет, созданный заклинанием Lumos</span>
+                            <span class="spell-cast">Произнести</span>
+                        </li>
+                        <li data-spell="alohomora">
+                            <span class="spell-title">Alohomora</span>
+                            <span class="spell-desc">Отпирает замки и механические защёлки</span>
+                            <span class="spell-cast">Произнести</span>
+                        </li>
+                        <li data-spell="accio">
+                            <span class="spell-title">Accio</span>
+                            <span class="spell-desc">Призывает объект к заклинателю</span>
+                            <span class="spell-cast">Произнести</span>
+                        </li>
+                        <li data-spell="reparo">
+                            <span class="spell-title">Reparo</span>
+                            <span class="spell-desc">Чинит повреждённые объекты</span>
+                            <span class="spell-cast">Произнести</span>
+                        </li>
+                        <li data-spell="protego">
+                            <span class="spell-title">Protego</span>
+                            <span class="spell-desc">Создает защитный барьер, отражающий заклинания</span>
+                            <span class="spell-cast">Произнести</span>
+                        </li>
+                        <li data-spell="sectumsempra">
+                            <span class="spell-title">Sectumsempra</span>
+                            <span class="spell-desc">Наносит невидимые порезы на теле жертвы</span>
+                            <span class="spell-cast">Произнести</span>
+                        </li>
+                        <li data-spell="imperio">
+                            <span class="spell-title">Imperio</span>
+                            <span class="spell-desc">Даёт полный контроль над действиями жертвы</span>
+                            <span class="spell-cast">Произнести</span>
+                        </li>
+                        <li data-spell="crucio">
+                            <span class="spell-title">Crucio</span>
+                            <span class="spell-desc">Причиняет невыносимую боль жертве</span>
+                            <span class="spell-cast">Произнести</span>
+                        </li>
+                        <li data-spell="riddikulus">
+                            <span class="spell-title">Riddikulus</span>
+                            <span class="spell-desc">Превращает боггарта в смешную форму</span>
+                            <span class="spell-cast">Произнести</span>
+                        </li>
+                        <li data-spell="aguamenti">
+                            <span class="spell-title">Aguamenti</span>
+                            <span class="spell-desc">Создает поток воды из палочки</span>
+                            <span class="spell-cast">Произнести</span>
+                        </li>
+                        <li data-spell="episkey">
+                            <span class="spell-title">Episkey</span>
+                            <span class="spell-desc">Лечит незначительные травмы</span>
+                            <span class="spell-cast">Произнести</span>
+                        </li>
+                        <li data-spell="legilimens">
+                            <span class="spell-title">Legilimens</span>
+                            <span class="spell-desc">Позволяет проникать в мысли другого человека</span>
+                            <span class="spell-cast">Произнести</span>
+                        </li>
+                        <li data-spell="occlumency">
+                            <span class="spell-title">Occlumency</span>
+                            <span class="spell-desc">Защищает разум от проникновения</span>
+                            <span class="spell-cast">Произнести</span>
+                        </li>
+                        <li data-spell="morsmordre">
+                            <span class="spell-title">Morsmordre</span>
+                            <span class="spell-desc">Создает Тёмную метку в небе</span>
+                            <span class="spell-cast">Произнести</span>
+                        </li>
+                        <li data-spell="finite-incantatem">
+                            <span class="spell-title">Finite Incantatem</span>
+                            <span class="spell-desc">Прекращает действие других заклинаний</span>
+                            <span class="spell-cast">Произнести</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="./index.js"></script>
+</body>
+<footer class="footer">
+    <div class="footer-boft">
+    <div class="footer-left">
+        <img src="https://upload.wikimedia.org/wikipedia/ru/thumb/e/e5/Hogwarts-coat.svg/1200px-Hogwarts-coat.svg.png" alt="" class="logo">
+      <span class="brand">Hogwarts</span>
+    </div>
+  
+    <div class="footer-center">
+      <p>Не мечтай, а действуй!</p>
+    </div>
+  
+    <div class="footer-right">
+      <ul class="ul-list">
+        <div class="li1">
+        <li><a href="#home">Главная</a></li>
+        <li><a href="#characters">Герои</a></li>
+        <li><a href="#hogwarts">Хогвартс</a></li>
+        <li><a href="#magic">Магия</a></li>
+        </div>
+    <div class="li2">
+        <li><a href="#facyltet">Факультеты</a></li>
+    </div>
+      </ul>
+    </div>
+</div>
+  </footer>
+  
+</html>
